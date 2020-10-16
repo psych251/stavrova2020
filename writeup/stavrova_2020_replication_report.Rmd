@@ -30,6 +30,7 @@ I anticipate my primary challenge to be the coding of the analysis of the PARH s
 
 This replication attempt is documented in Github [here.](https://github.com/psych251/stavrova2020)
 The original paper, within the same repository, can be found [here.](https://github.com/psych251/stavrova2020/blob/master/original_paper/paper.pdf)
+The Qualtrics survey can be found [here.](https://stanforduniversity.qualtrics.com/jfe/form/SV_0feQzSIBEXTVWhD)
 
 
 ##Methods
