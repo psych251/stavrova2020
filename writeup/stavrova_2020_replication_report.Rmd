@@ -133,33 +133,57 @@ You can comment this section out prior to final report with data collection.
 ### Data preparation
 
 Data preparation following the analysis plan.
-	
-```{r include=F}
+
+```{r include=T}
 ###load libraries, likely only need tidyverse packages
-#library(tidyverse)
-#knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+```
 
+```{r include=T}
 ###import data
-#data <- read.csv()
-#data()
-#View(data)
+testdata <- read.csv("testdata.csv")
+View(testdata)
+```
 
+```{r include=T}
+
+###delete rows where I test-ran study
+testdata_analysis <- testdata[-c(1:8), ]
+View(testdata_analysis)
+```
+
+```{r include=T}
 ###exclude all who failed attention check
-#data_excl <- data %>%
-  #filter(attentioncheck == "3")
-#data_excl
+testdata_analysis_excl <- testdata_analysis %>%
+  filter(att_check == "4")
+View(testdata_analysis_excl)
+```
 
+```{r include=T}
 ###create aggregate cynicism score
-#data_excl$cyn_total <- (data_excl(cyn1) + data_excl(cyn2) + data_excl(cyn3) + data_excl(cyn4) + data_excl(cyn5) + 
-  #data_excl(cyn6) + data_excl(cyn7) + data_excl(cyn8) + data_excl(cyn9))/9
+testdata_analysis_excl[, 22:30] <- sapply(testdata_analysis_excl[, 22:30], FUN = as.numeric)
+testdata_analysis_excl$cyn_total <- (testdata_analysis_excl$cyn1 + testdata_analysis_excl$cyn2 + testdata_analysis_excl$cyn3 + 
+                                       testdata_analysis_excl$cyn4 + testdata_analysis_excl$cyn5 + testdata_analysis_excl$cyn6 + 
+                                       testdata_analysis_excl$cyn7 + testdata_analysis_excl$cyn8 + testdata_analysis_excl$cyn9)/9
+summary(testdata_analysis_excl$cyn_total)
+```
 
+```{r include=T}
 ###separate by condition
+cyn_means <- testdata_analysis_excl %>%
+  group_by(cond_disr) %>% #for actual analysis, first create column for value Y/N in cond_guilt column, then group by conditions
+  summarise (cyn_total = mean(cyn_total))
+View(cyn_means)
 ```
 
 ### Confirmatory analysis
 
-```{r include=F}
+```{r include=T}
 ###run t-test on cynicism score between two conditions
+cyn_means_guilt <- cyn_means[1, ]
+cyn_means_disr <- cyn_means[2, ]
+#t.test(cyn_means_guilt$cyn_total, cyn_means_disr$cyn_total, paired = F) --> error because I only have 2 data points :)
 ```
 
 ###Exploratory analyses
