@@ -145,6 +145,13 @@ knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 ###import data
 testdata <- read.csv("testdata.csv")
 View(testdata)
+getwd()
+```
+
+```{r include=T}
+###create anonymized shareable dataset
+testdata_anonymized <- subset(testdata, select = -c(1:4, 8:9, 14:16))
+write.csv(testdata_anonymized, "/Users/ericneumann/Desktop/stavrova2020/writeup/testdata_anonymized.csv")
 ```
 
 ```{r include=T}
