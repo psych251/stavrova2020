@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/666506/e01f9511c4514afa87e72b505ccc504f
+bundleId: https://api.rpubs.com/api/v1/document/666506/e01f9511c4514afa87e72b505ccc504f
+url: http://rpubs.com/EricNeumann/666506
+when: 1602808112.5246
