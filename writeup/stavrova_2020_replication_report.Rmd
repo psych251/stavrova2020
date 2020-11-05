@@ -143,44 +143,39 @@ knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 
 ```{r include=T}
 ###import data
-testdata <- read.csv("testdata.csv")
-View(testdata)
-getwd()
+pilotb <- read.csv("pilotb.csv", na.strings = c("", "NA"))
+View(pilotb)
 ```
 
 ```{r include=T}
 ###create anonymized shareable dataset
-testdata_anonymized <- subset(testdata, select = -c(1:4, 8:9, 14:16))
-write.csv(testdata_anonymized, "/Users/ericneumann/Desktop/stavrova2020/writeup/testdata_anonymized.csv")
-```
-
-```{r include=T}
-
-###delete rows where I test-ran study
-testdata_analysis <- testdata[-c(1:8), ]
-View(testdata_analysis)
+pilotb_anonymized <- subset(pilotb, select = -c(4, 9:16)) # anonymize data
+pilotb_anonymized <- pilotb_anonymized[-c(1:22), ] # delete pre-runs that are not pilot b
+write.csv(pilotb_anonymized, "/Users/ericneumann/Desktop/stavrova2020/writeup/pilotb_anonymized.csv") # save for upload to github
 ```
 
 ```{r include=T}
 ###exclude all who failed attention check
-testdata_analysis_excl <- testdata_analysis %>%
+pilotb_excl <- pilotb_anonymized %>%
   filter(att_check == "4")
-View(testdata_analysis_excl)
+View(pilotb_excl) # all passed attention check
 ```
 
 ```{r include=T}
 ###create aggregate cynicism score
-testdata_analysis_excl[, 22:30] <- sapply(testdata_analysis_excl[, 22:30], FUN = as.numeric)
-testdata_analysis_excl$cyn_total <- (testdata_analysis_excl$cyn1 + testdata_analysis_excl$cyn2 + testdata_analysis_excl$cyn3 + 
-                                       testdata_analysis_excl$cyn4 + testdata_analysis_excl$cyn5 + testdata_analysis_excl$cyn6 + 
-                                       testdata_analysis_excl$cyn7 + testdata_analysis_excl$cyn8 + testdata_analysis_excl$cyn9)/9
-summary(testdata_analysis_excl$cyn_total)
+pilotb_excl[, 13:21] <- sapply(pilotb_excl[, 13:21], FUN = as.numeric)
+pilotb_excl$cyn_total <- (pilotb_excl$cyn1 + pilotb_excl$cyn2 + pilotb_excl$cyn3 + 
+                                       pilotb_excl$cyn4 + pilotb_excl$cyn5 + pilotb_excl$cyn6 + 
+                                       pilotb_excl$cyn7 + pilotb_excl$cyn8 + pilotb_excl$cyn9)/9
+summary(pilotb_excl$cyn_total)
 ```
 
 ```{r include=T}
 ###separate by condition
-cyn_means <- testdata_analysis_excl %>%
-  group_by(cond_disr) %>% #for actual analysis, first create column for value Y/N in cond_guilt column, then group by conditions
+pilotb_excl$disrespect <- ifelse(pilotb_excl$cond_disr == "NA", "guilt", "disrespect") # it shows no "guilt" label (instead says "NA"), so I created two columns instead
+pilotb_excl$guilt <- ifelse(pilotb_excl$cond_guilt == "NA", "disrespect", "guilt")
+cyn_means <- pilotb_excl %>%
+  group_by(disrespect) %>%
   summarise (cyn_total = mean(cyn_total))
 View(cyn_means)
 ```
@@ -189,9 +184,9 @@ View(cyn_means)
 
 ```{r include=T}
 ###run t-test on cynicism score between two conditions
-cyn_means_guilt <- cyn_means[1, ]
-cyn_means_disr <- cyn_means[2, ]
-#t.test(cyn_means_guilt$cyn_total, cyn_means_disr$cyn_total, paired = F) --> error because I only have 2 data points :)
+pilotb_disrespect <- filter(pilotb_excl, pilotb_excl$disrespect == "disrespect")
+pilotb_guilt <- filter(pilotb_excl, pilotb_excl$guilt == "guilt")
+#t.test(pilotb_disrespect$cyn_total, pilotb_guilt$cyn_total, paired = F) # not enough observations in pilot b
 ```
 
 ### Exploratory analyses
