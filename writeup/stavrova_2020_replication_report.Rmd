@@ -13,18 +13,17 @@ output:
 
 ## Introduction
 
-
 ### Background and Replication Choice
 
-Cynicism is highly prevalent in the US these days, and most of its correlates are negative. One relevant question is thus why it manages to sustain itself in the light of its many disadvantages. Stavrova et al (2020) propose an interesting self-reinforcing circle of cynicism: being cynical makes you treat others with more disrespect, and as they will treat you with more disrespect in turn, you are more likely to be cynical. Study 3 of their paper examines this latter part, finding that recalling an experience of being disrespected leads people to be more cynical about human nature. As much of my PhD research will likely build on this finding, I would like to first see if the results are robust and replicable.
+Cynicism is highly prevalent in the US these days, and most of its correlates are negative. One relevant question is thus why it manages to sustain itself in the light of its many disadvantages. Stavrova et al (2020) propose an interesting self-reinforcing circle of cynicism: being cynical makes you treat others with more disrespect, and as they will treat you with more disrespect in turn, you are more likely to be cynical. Study 3 of their paper examines this latter part, finding that recalling an experience of being disrespected leads people to be more cynical about human nature (as opposed to recalling an experience of feeling guilt). As much of my PhD research will likely build on this finding, I would like to first see if the results are robust and replicable.
 
 ### Stimuli and Procedures
 
-Participants were recruited on Prolific.com. They were first asked to write a short essay about a time they had experienced disrespect (experimental condition) or guilt (control condition). This was followed by a manipulation check where participants indicated the extent to which they felt disrespected or guilty. All subjects then completed the cynical distrust scale (Greenglass & Julkunen, 1989). As participants might have seen through the experimental design, they also filled out the Perceived Awareness of the Research Hypothesis scale (PARH; Rubin, 2010). Finally, they completed an attention check and basic demographic questions. 
+Participants in the original study were recruited on Prolific.com. They were first asked to write a short essay about a time they had experienced disrespect (experimental condition) or guilt (control condition). This was followed by a manipulation check where participants indicated the extent to which they felt disrespected or guilty. All subjects then completed the Cynical Distrust Scale (Greenglass & Julkunen, 1989). As participants might have seen through the experimental design, they also filled out the Perceived Awareness of the Research Hypothesis scale (PARH; Rubin, 2010). Finally, they completed an attention check and basic demographic questions.
 
 ### Anticipated Challenges
 
-I anticipate my primary challenge to be the coding of the analysis of the PARH scale as the original paper proposed four different ways perceived awareness can be measured. I do think, however, that learning this will be useful for future studies and also estimate the rest of the analysis to be straightforward enough to allow for time exploring the impact of participant's perceived awareness of the intentions behind the study.
+I anticipate my primary challenge to be the coding of the analysis of the PARH scale as the original paper proposed multiple different ways perceived awareness can be measured. I do think, however, that learning this will be useful for future studies and also estimate the rest of the analysis to be straightforward enough to allow for time exploring the impact of participant's perceived awareness of the intentions behind the study.
 
 ### Pertinent Links
 
@@ -32,24 +31,22 @@ This replication attempt is documented in Github [here.](https://github.com/psyc
 The original paper, within the same repository, can be found [here.](https://github.com/psych251/stavrova2020/blob/master/original_paper/paper.pdf)
 The Qualtrics survey can be found [here.](https://stanforduniversity.qualtrics.com/jfe/form/SV_0feQzSIBEXTVWhD)
 
-
 ## Methods
-
 
 ### Power Analysis
 
-The original effect size was d=.40. To detect this effect size to achieve 80% power requires a sample of n=200 participants.
+The original effect size was d=.40. To detect this effect size to achieve 80% power requires a sample of n = 200 participants.
 
 ### Planned Sample
 
-MTurk participants in the United States will be allowed to partake in this study. There are no specific preselection criteria.
+MTurk participants in the United States will be allowed to take part in this study. There are no specific preselection criteria.
 
 ### Materials
 
-Prompts about experience making ss feel guilty or disrespected
-Cynical Distrust Scale (Greenglass & Julkunen, 1989)
-Perceived Awareness of the Research Hypothesis scale (PARH; Rubin, 2010)
-Demographics
+- Prompts to write about an experience of feeling guilty or disrespected
+- Cynical Distrust Scale (Greenglass & Julkunen, 1989)
+- Perceived Awareness of the Research Hypothesis scale (PARH; Rubin, 2010)
+- Demographics
 
 ### Procedure	
 
@@ -59,24 +56,23 @@ Participants are first prompted to write about an experience where they felt gui
 
 [disrespect] "In this study, we will ask you to describe events in your life. Please describe in detail a time when you felt disrespected by someone else. Perhaps you felt like you were treated with less courtesy than others, or you were slighted by someone, for example. Please, indicate where and when this happened and provide the initials of the person(s) who treated you that way, if possible."
 
-As a manipulation check, all participants then answer if recalling this experience makes them feel guilty or disrespected.
+As a manipulation check, all participants then answer if recalling their specific experience makes them feel guilty or disrespected.
 
 "Does reliving the experience you wrote about make you feel guilty right now?" 1 (not at all) - 7 (very much)
 "Does reliving the experience you wrote about make you feel disrespected right now?" 1 (not at all) - 7 (very much)
 
-Then, on a scale from 1 (not at all) to 7 (very much), participants respond to the cynical distrust scale.
+Then, on a scale from 1 (not at all) to 7 (very much), participants respond to the Cynical Distrust Scale.
 
-"Please indicate to what extent you agree or disagree with the following statements.
-1. I think most people would lie to get ahead.
-2. Most people inwardly dislike putting themselves out to help other people.
-3. Most people make friends because friends are likely to be useful to them.
-4. It is safer to trust nobody.
-5. No one cares much what happens to you.
-6. Most people are honest chiefly through fear of being caught.
-7. I commonly wonder what hidden reasons another person may have for doing something
-nice to me.
-8. Most people will use somewhat unfair means to gain profit or an advantage rather than lose it."
-9 When a man is with a woman he is usually thinking about things related to her sex
+"
+1. Does reliving the experience you wrote about make you think that most people would lie to get ahead?
+2. Does reliving the experience you wrote about make you think that most people inwardly dislike putting themselves out to help other people?
+3. Does reliving the experience you wrote about make you think that most people make friends because friends are likely to be useful to them?
+4. Does reliving the experience you wrote about make you think that it is safer to trust nobody?
+5. Does reliving the experience you wrote about make you think that no one cares much what happens to you?
+6. Does reliving the experience you wrote about make you think that most people are honest chiefly through fear of being caught?
+7. Does reliving the experience you wrote about make you wonder what hidden reasons another person may have for doing something nice to you?
+8. Does reliving the experience you wrote about make you think that most people will use somewhat unfair means to gain profit or an advantage rather than lose it?
+9 Does reliving the experience you wrote about make you think that when a man is with a woman he is usually thinking about things related to her sex?"
 
 Unlike in the original study, the ninth item from the original survey is not omitted for face validity reasons.
 
@@ -86,50 +82,51 @@ Like in the original study, an attention check is included.
 
 Next, participants fill out the PARH scale.
 
-"1. I knew what the researchers were investigating in this research. 
+"
+1. I knew what the researchers were investigating in this research. 
 2. I wasn’t sure what the researchers were trying to demonstrate in this research. 
 3. I had a good idea about what the hypotheses were in this research. 
 4. I was unclear about exactly what the researchers were aiming to prove in this research."
 
 Finally, participants are asked certain demographic questions.
 
-"Please, indicate your gender. (male - female) [I will also include a third category 'other, prefer not to say']
+"Please indicate your gender. (Male - Female) [I also include a third category 'Other/Prefer not to say']
 How old are you?"
 
-I will include a few additional demographic variables for exploratory purposes.
+I include two additional demographic variables for exploratory purposes.
 
-"When it comes to politics, would you describe yourself as liberal, conservative, or neither liberal nor conservative?" (adapted from Guess et al, 2020) (scale from 'very liberal' to 'very conservative')
 "What is the highest level of education you have completed?" (scale from 'did not graduate from high school' to 'postgraduate')
+"When it comes to politics, would you describe yourself as liberal, conservative, or neither liberal nor conservative?" (adapted from Guess et al, 2020) (scale from 'very liberal' to 'very conservative')
 
-I run the replication on mTurk and will thus omit the question about the Prolific ID. The study concludes with
+The study concludes with a short debrief:
 
-"Thank you for your participation."
+"Thanks for taking the study. On the next page, you will find the code you need to receive your payment.
+
+For your information, this study was about how recalling an experience of disrespect might make people more cynical about human nature than recalling an experience of guilt. Some people recalled an experience of disrespect, some of guilt. This is a replication of an earlier study that found the proposed effect."
+
+I am running the replication on mTurk and thus provide participants with a random code for the HIT instead of asking about their Prolific ID:
+
+"Please make note of the following 7-digit code. You will input it through Mechanical Turk to indicate your completion of the study. Then click the button on the bottom of the page to submit your answers. You will not receive credit unless you click this button."
 
 ### Analysis Plan
 
-Manipulation check - independent t-tests: do participants in guilt condition feel more guilt? do participants in disrespect condition feel more disrespect?
+Manipulation check - independent t-tests: Do participants in the guilt condition feel more guilt? Do participants in the disrespect condition feel more disrespect?
 
-Cynicism (key measure) - independent t-test: are participants in disrespect condition more cynical than those in guilt condition?
-
-Demand effects of PARH scale - four different tests: compare participant PARH scale responses to theoretical midpoint (one sample t-test); exclude positive outliers (+3SDs), test associations between PARH scores and IVs and DVs (r(PARH, cynicism), interaction condition x PARH, independent t-test between conditions on PARH score), include PARH score as covariate in main hypothesis (ANCOVA).
+Cynicism (key measure) - independent t-test: Are participants in the disrespect condition more cynical than those in guilt condition?
 
 ### Differences from Original Study
 
-This replication will be run on mTurk, not Prolific. I will include the ninth item of the Cynical Distrust scale despite its low face validity. The gender demographics question includes a third option, and two demographic questions (political leaning, education) have been added strictly for exploratory purposes. I do not expect any of these changes to impact the results.
-
-### Methods Addendum (Post Data Collection)
-
-You can comment this section out prior to final report with data collection.
+This replication is run on mTurk, not Prolific. I included the ninth item of the Cynical Distrust scale despite its low face validity. The gender demographics question includes a third option, and two demographic questions (political leaning, education) have been added strictly for exploratory purposes. I do not expect any of these changes to impact the results.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+203 mTurk workers filled out the survey, and 9 had to be excluded for failing the attention check. The average age was 35.07, ranging from 21 to 70. The final sample included 70 women, 120 men, and one person identifying as 'Other/Prefer not to say.' As for political leaning, 94 participants identified as liberals, 73 as conservatives, 23 as moderates, and one person did not respond to the question. 19 are high school graduates, 15 have some college experience, but not degree (yet), 11 have a 2-year degree, 127 a 4-year degree, and 19 a postgraduate degree.
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
 
+None.
 
 ## Results
-
 
 ### Data preparation
 
@@ -143,62 +140,228 @@ knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 
 ```{r include=T}
 ###import data
-pilotb <- read.csv("pilotb.csv", na.strings = c("", "NA"))
-View(pilotb)
+data <- read.csv("data.csv", na.strings = c("", "NA"))
+View(data)
 ```
 
 ```{r include=T}
-###create anonymized shareable dataset
-pilotb_anonymized <- subset(pilotb, select = -c(4, 9:16)) # anonymize data
-pilotb_anonymized <- pilotb_anonymized[-c(1:22), ] # delete pre-runs that are not pilot b
-write.csv(pilotb_anonymized, "/Users/ericneumann/Desktop/stavrova2020/writeup/pilotb_anonymized.csv") # save for upload to github
+###create anonymized shareable dataset; clean up data
+data_excl <- subset(data, select = -c(4, 9:16)) # anonymize data
+data_excl <- data_excl[-c(1:30), ] # delete pre-runs that are not final data collection
+data_excl <- data_excl[which(!is.na(data_excl$random)), ] # exclude all who did not finish, leaving 203 ss
+
+data_excl$cyn1 <- recode(data_excl$cyn1, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn2 <- recode(data_excl$cyn2, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn3 <- recode(data_excl$cyn3, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn4 <- recode(data_excl$cyn4, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn5 <- recode(data_excl$cyn5, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn6 <- recode(data_excl$cyn6, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn7 <- recode(data_excl$cyn7, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn8 <- recode(data_excl$cyn8, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$cyn9 <- recode(data_excl$cyn9, 'not at all' = 1, '3' = 2, '4' = 3, '5' = 4, '6' = 5, '7' = 6, 'very much' = 7)
+table(data_excl$cyn9) # my added 9th cynicism item was seemingly coded differently, with the numbers all one higher than for the other items
+
+data_excl[, 13:21] <- sapply(data_excl[, 13:21], FUN = as.numeric)
+data_excl$cyn_total <- (data_excl$cyn1 + data_excl$cyn2 + data_excl$cyn3 + 
+                        data_excl$cyn4 + data_excl$cyn5 + data_excl$cyn6 +
+                        data_excl$cyn7 + data_excl$cyn8 + data_excl$cyn9)/9
+
+data_excl$manip_disr <- recode(data_excl$manip_disr, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+data_excl$manip_guilt <- recode(data_excl$manip_guilt, 'not at all' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'very much' = 7)
+
+data_excl$age <- as.character(data_excl$age)
+data_excl$age <- as.numeric(data_excl$age)
+
+data_excl$aware_1 <- recode(data_excl$aware_1, 'Strongly disagree' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'Strongly agree' = 7)
+data_excl$aware_2 <- recode(data_excl$aware_2, 'Strongly disagree' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'Strongly agree' = 7)
+data_excl$aware_3 <- recode(data_excl$aware_3, 'Strongly disagree' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'Strongly agree' = 7)
+data_excl$aware_4 <- recode(data_excl$aware_4, 'Strongly disagree' = 1, '2' = 2, '3' = 3, '4' = 4, '5' = 5, '6' = 6, 'Strongly agree' = 7)
+
+data_excl$aware_total <- (data_excl$aware_1 + data_excl$aware_2 + data_excl$aware_3 + data_excl$aware_4)/4
+
+write.csv(data_excl, "/Users/ericneumann/Desktop/stavrova2020/writeup/data_anonymized.csv") # save for upload to github
 ```
 
 ```{r include=T}
 ###exclude all who failed attention check
-pilotb_excl <- pilotb_anonymized %>%
+data_excl <- data_excl %>%
   filter(att_check == "4")
-View(pilotb_excl) # all passed attention check
+View(data_excl) # 12 people failed  attention check, leaving 191 ss
 ```
 
 ```{r include=T}
-###create aggregate cynicism score
-pilotb_excl[, 13:21] <- sapply(pilotb_excl[, 13:21], FUN = as.numeric)
-pilotb_excl$cyn_total <- (pilotb_excl$cyn1 + pilotb_excl$cyn2 + pilotb_excl$cyn3 + 
-                                       pilotb_excl$cyn4 + pilotb_excl$cyn5 + pilotb_excl$cyn6 + 
-                                       pilotb_excl$cyn7 + pilotb_excl$cyn8 + pilotb_excl$cyn9)/9
-summary(pilotb_excl$cyn_total)
+###look at total cynicism score more closely
+summary(data_excl$cyn_total) # first observation: Stavrova et al found both groups to have mean cynicism c=scores between 3.40 and 3.90; my overall baserate is 4.414, possibly because this was run the week after the 2020 election...
+sd(data_excl$cyn_total, na.rm=T) # Stavrova et al report SDs of 1.29 and 1.22 respectively; my overall baserate sd is 1.50, also higher
+
+ggplot(data_excl, aes(data_excl$cyn_total)) + # strongly skewed towards higher cynicism scores, which might induce ceiling effects
+  geom_histogram(binwidth = .5, position = "dodge") +
+  xlab("cynicism")
 ```
 
 ```{r include=T}
 ###separate by condition
-pilotb_excl$disrespect <- ifelse(pilotb_excl$cond_disr == "NA", "guilt", "disrespect") # it shows no "guilt" label (instead says "NA"), so I created two columns instead
-pilotb_excl$guilt <- ifelse(pilotb_excl$cond_guilt == "NA", "disrespect", "guilt")
-cyn_means <- pilotb_excl %>%
-  group_by(disrespect) %>%
-  summarise (cyn_total = mean(cyn_total))
-View(cyn_means)
+data_excl$disrespect <- ifelse(data_excl$cond_disr == "NA", "guilt", "disrespect") 
+
+# it shows no "guilt" label (instead says "NA"), so I created two columns instead
+data_excl$guilt <- ifelse(data_excl$cond_guilt == "NA", "disrespect", "guilt")
 ```
 
 ### Confirmatory analysis
 
 ```{r include=T}
-###run t-test on cynicism score between two conditions
-pilotb_disrespect <- filter(pilotb_excl, pilotb_excl$disrespect == "disrespect")
-pilotb_guilt <- filter(pilotb_excl, pilotb_excl$guilt == "guilt")
-#t.test(pilotb_disrespect$cyn_total, pilotb_guilt$cyn_total, paired = F) # not enough observations in pilot b
+###manipulation check
+data_disrespect <- filter(data_excl, data_excl$disrespect == "disrespect") # 93 people
+data_guilt <- filter(data_excl, data_excl$guilt == "guilt") # 98 people
+
+t.test(data_disrespect$manip_disr, data_guilt$manip_disr, paired = F) # worked: M(5.217) vs M(4.041), t(182) = 4.612, p < .0001
+t.test(data_disrespect$manip_guilt, data_guilt$manip_guilt, paired = F) # worked: M(3.570) vs M(5.378), t(154) = -6.699, p < .0001
+# for this and all following t-tests, side comment: no reason to assume that variance does not differ between groups and Welch vs Student's t-test show similar results anyways; for cautionary reasons I will thus be using Welch tests, though the authors seemingly used Student's t-tests given their high degrees of freedom
 ```
 
-### Exploratory analyses
+```{r include=T}
+### first look at critical measures
+mean(data_disrespect$cyn_total, na.rm = T) # 4.52657
+sd(data_disrespect$cyn_total, na.rm = T) # 1.464162
+mean(data_guilt$cyn_total, na.rm = T) # 4.30839
+sd(data_guilt$cyn_total, na.rm = T) # 1.526361
 
-Any follow-up analyses desired (not required).  
+### plot differences from original paper v my study
+data_compare <- data.frame("Study" = c("Original", "Original", "Replication", "Replication"), "Condition" = c("Disrespect", "Guilt", "Disrespect", "Guilt"), "Cynicism" = c(3.90, 3.40, 4.52657, 4.30839))
+View(data_compare)
+ggplot(data_compare, aes(Study, Cynicism, fill = Condition)) +
+  stat_summary(geom = "bar", position = "dodge") +
+  xlab("Study") +
+  ylab("Cynicism") +
+  labs(color = "Condition") +
+  coord_cartesian(ylim = c(3, 5))
+
+### main analysis: run t-test on cynicism score between two conditions
+t.test(data_disrespect$cyn_total, data_guilt$cyn_total, paired = F) # not significant! t(188) = 1.00, p = .316
+t.test(data_disrespect$cyn_total, data_guilt$cyn_total, paired = F, var.equal = T) # student's t-test also not significant, t(188) = 1.00, p = .317
+```
+
+### Demographics and Exploratory Analysis
+
+``` {r include=T}
+summary(data_excl$age) # mean age = 35.07, range from 21 to 70 years
+
+age_cynicism <- ggplot(data_excl, aes(data_excl$age, data_excl$cyn_total)) + 
+  geom_point() +
+  geom_smooth(method = "lm") +
+  xlab("age") +
+  ylab("cynicism") 
+age_cynicism # cynicism seems to decline with age, but is this correlation significant?
+
+cor.test(data_excl$cyn_total, data_excl$age, method = "pearson", use = "complete.obs") # significant: r = -.15, t(188) = -2.082, p < .05
+```
+
+``` {r include=T}
+ggplot(data_excl, aes(data_excl$educ)) +
+  geom_bar() +
+  xlab("education") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) # most people have a 4-year college degree; others degrees represented roughly equally
+
+data_excl$educ <- factor(data_excl$educ, levels = c("High school graduate", "Some college, but no degree (yet)", "2-year college degree", "4-year college degree", "Postgraduate"))
+
+table(data_excl$educ)
+
+education_cynicism <- ggplot(data_excl, aes(data_excl$educ, data_excl$cyn_total)) +
+  stat_summary(fun.y = mean, geom = "bar", na.rm=T) +
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = .2) +
+  xlab("education") +
+  ylab("cynicism") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+education_cynicism # people with more education seem more cynical, but are differences significant?
+
+summary(aov(data_excl$cyn_total ~ data_excl$educ)) # education has significant impact on cynicism: F(4, 185) = 6.495, p < .0001
+```
+
+``` {r include=T}
+table(data_excl$politics) # 94 liberals, 73 conservatives, 23 moderates, 1 NA
+
+data_excl$politics <- factor(data_excl$politics, levels = c("Very liberal", "Somewhat liberal", "Slightly liberal", "Moderate; middle of the road", "Slightly conservative", "Somewhat conservative", "Very conservative"))
+
+politics_cynicism <- ggplot(data_excl, aes(data_excl$politics, data_excl$cyn_total)) +
+  stat_summary(fun.y = mean, geom = "bar", na.rm=T) +
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = .2) +
+  xlab("politics") +
+  ylab("cynicism") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+politics_cynicism # people at political extremes (esp. at the conservative extreme) seem more cynical, but are differences significant?
+
+summary(aov(data_excl$cyn_total ~ data_excl$politics)) # politics has significant impact on cynicism: F(6, 182) = 3.148, p < .01
+```
+
+``` {r include=T}
+table(data_excl$gender) # 70 women, 120 men, 1 Other/Prefer not to say
+
+gender_cynicism <- ggplot(data_excl, aes(data_excl$gender, data_excl$cyn_total)) +
+  stat_summary(fun.y = mean, geom = "bar", na.rm=T) +
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = .2) +
+  xlab("gender") +
+  ylab("cynicism") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+gender_cynicism # men seem more cynical, but are differences significant?
+
+summary(aov(data_excl$cyn_total ~ data_excl$gender)) # gender has no significant impact on cynicism: F(2, 187) = 1.894, p = .153
+```
+```
+
+``` {r include=T}
+### Summary plot
+library(cowplot)
+plot_grid(age_cynicism, education_cynicism, politics_cynicism, gender_cynicism)
+```
+
+### Analysis of Awareness Scores
+
+``` {r include=T}
+### PARH scores: were people aware of the manipulation?
+
+## Test 1: Does the average response significantly deviate from the theoretical midpoint (4)?
+t.test(data_excl$aware_total, mu = 4) # failed: M(4.7212), t(190) = 10.613, p < .0001
+
+## Test 2: Exclude positive outliers + 3SDs above theoretical midpoint
+4 + sd(data_excl$aware_total)*3 # 3SDs above midpoint equals a total PARH score of 6.817543
+which(data_excl$aware_total > 6.817543) # one outlier: participant row 107
+
+data_parh <- data_excl[-107, ] # run test again with new dataset that omits this person
+data_disrespect_parh <- filter(data_parh, data_parh$disrespect == "disrespect") # 92 people
+data_guilt_parh <- filter(data_parh, data_parh$guilt == "guilt") # 98 people
+t.test(data_disrespect_parh$cyn_total, data_guilt_parh$cyn_total, paired = F) # still not significant: t(187) = 1.04, p = .300
+
+## Test 3: Are PARH scores associated with independent and dependent variables?
+ggplot(data_excl, aes(data_excl$cyn_total, data_excl$aware_total)) + 
+  geom_point() +
+  geom_smooth(method = "lm") +
+  xlab("cynicism") +
+  ylab("awareness of hypothesis") #looks like a strong correlation!
+
+cor.test(data_excl$cyn_total, data_excl$aware_total, method = "pearson", use = "complete.obs") # significant: r = .616, t(188) = 10.731, p < .0001
+
+# but does that necessarily matter? let's see if different conditions have different overall PARH scores
+t.test(data_disrespect$aware_total, data_guilt$aware_total, paired = F) # not significant, t(188) = .568, p = .571, so hard to say if test 3 is failed
+
+### summary: in contrast to original paper, I find that participants were more aware of research hypothesis; however, it is not obvious that this is a problem
+```
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+The main finding from Stavrova et al (2020), i.e. that recalling an experience of disrespect as opposed to guilt elicits higher cynicism, could not be replicated.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+There are a few reasons for why this replication attempt might have failed.
+
+1. There are a few people in the data set who apparently did not take the writing exercise seriously. They only used one word or copied the task instructions. I have decided not to exclude them as the authors in the original paper made no comment that they have excluded such participants. There would also have been a grey zone for many people who took the task half-seriously, and contemplating whether to exclude them as well would have been a task requiring clearer instructions to avoid p-hacking.
+
+2. My sample size was slightly underpowered (n = 191, but power analysis predicted we would need n = 200 people)
+
+3. The  9th cynicism item of the Cynical Distrust Scale was included here, but not in the original paper.
+
+4. The overall cynicism scores were higher here than in the original study. This might be the case because this replication was run on November 10, shortly after the US presidential elections and in the midst of the post-election coverage and still ongoing Covid pandemic. These factors might have increased overall cynicism, inducing potential ceiling effects.
+
+5. Participants in the replication seemed somewhat more aware of the research hypotheses. However, only one participant scored > 3 SDs above the scale midpoint, and excluding this participant did not render the main analysis significant. The two writing conditions also did not differ in their stated awareness of the research hypothesis.
